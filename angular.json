@@ -33,6 +33,8 @@
 
             ],
             "scripts": [],
+            "outputHashing": "all",
+            "baseHref": "/",
             "server": "src/main.server.ts",
             "prerender": false,
             "ssr": {
