@@ -44,7 +44,7 @@ export class MapaComponent implements AfterViewInit, OnInit {
   // Configuração da API
   baseURL = isBrowser() && window.location.hostname.includes('localhost')
     ? 'http://localhost:3000/api'
-    : '/api';
+    : 'https://projeto-faculride.onrender.com/api';
 
   usuarioLogado = isBrowser() ? JSON.parse(localStorage.getItem('usuarioLogado') || '{}') : {};
   meuId = this.usuarioLogado.idUsuario || this.usuarioLogado.id;

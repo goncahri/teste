@@ -28,7 +28,7 @@ export class GerenciarComponent implements OnInit {
 
   baseURL = isBrowser() && window.location.hostname.includes('localhost')
     ? 'http://localhost:3000/api'
-    : '/api';
+    : 'https://projeto-faculride.onrender.com/api';
 
   constructor(private fb: FormBuilder, private http: HttpClient) {
     this.form = this.fb.group({
