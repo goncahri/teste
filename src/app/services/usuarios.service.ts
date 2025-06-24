@@ -6,8 +6,8 @@ import { Observable, tap } from 'rxjs';
   providedIn: 'root',
 })
 export class UsuariosService {
-  private apiAuth = 'http://localhost:3000/api/auth';
-  private apiUsuario = 'http://localhost:3000/api/usuario';
+  private apiAuth = 'https://projeto-faculride.onrender.com/api/auth';
+  private apiUsuario = 'https://projeto-faculride.onrender.com/api/usuario';
 
   constructor(private http: HttpClient) {}
 

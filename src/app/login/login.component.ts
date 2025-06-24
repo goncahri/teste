@@ -22,7 +22,7 @@ export class LoginComponent {
 
   baseURL = window.location.hostname.includes('localhost')
     ? 'http://localhost:3000/api'
-    : '/api';
+    : 'https://projeto-faculride.onrender.com/api';
 
   constructor(private http: HttpClient) {}
 
